@@ -26,4 +26,19 @@ export const slide = {
       ease: "easeInOut",
     }
   }
-}
+};
+
+export const slideInstruction = {
+  hidden: {
+    opacity: 0,
+    x: 50,
+  },
+  visible: i => ({
+    opacity: 1,
+    x: 0,
+    transition: {
+      delay: i * 0.3,
+      ease: "easeInOut",
+    },
+  }),
+};
