@@ -1,4 +1,5 @@
-import { InstructionContainer, Heading, List, ButtonContainer, Button } from './Instruction.styled';
+import { InstructionContainer, Heading, List, ButtonContainer } from './Instruction.styled';
+import { Button } from '../../components/templates/Button';
 import { motion } from 'framer-motion';
 
 //Instruction data

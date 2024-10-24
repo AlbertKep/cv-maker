@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Flex } from '../../components/templates/Flex';
-import { Link } from 'react-router-dom';
 
 export const InstructionContainer = styled(Flex)`
   height: 100svh;
@@ -24,14 +23,4 @@ export const List = styled.ol`
 
 export const ButtonContainer = styled.div`
   margin-top: 3em;
-`
-export const Button = styled(Link)`
-    text-decoration: none;
-    cursor: pointer;
-    background-color: #33CC99;
-    font-size: clamp(1rem, 1rem + 0.3vw, 2rem);
-    padding: 1em 2em;
-    color: #fff;
-    border: 2px solid #33CC99;
-    border-radius: 5px;
 `
