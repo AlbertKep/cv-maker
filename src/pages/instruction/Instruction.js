@@ -3,7 +3,7 @@ import { Button } from '../../components/templates/Button';
 import { motion } from 'framer-motion';
 
 //Instruction data
-import { instruction } from "../../assets/data";
+import { instruction } from "../../assets/instruction";
 
 //Animation settings
 import { slideInstruction } from '../../assets/animationsVariants';
