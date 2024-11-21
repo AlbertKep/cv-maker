@@ -20,4 +20,12 @@ button, input {
   border: none;
   background-color: transparent;
 }
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
 `
